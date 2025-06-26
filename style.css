@@ -65,6 +65,11 @@ body {
   margin: 0 0 10px 0;
   font-weight: 800;
 }
+.card-content h2:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
 .card-content .content-para {
   color: hsl(0, 0%, 42%);
   font-size: 16px;
